@@ -29,3 +29,31 @@ def quarto_slide():
         n += 1
 
 quarto_slide()
+
+def somatorio():
+    soma = 0
+    n = 1
+    lista = [0]
+    while n < 10:
+        calcula = 2 * n + 1
+        lista.append(calcula)
+        n += 1
+    for num in lista:
+        soma += num
+    print(lista)
+    print("Soma: ",soma)
+somatorio()
+
+def produtorio():
+    produto = 1
+    n = 1 
+    lista = [1]
+    while n < 5:
+        calcula = 2 * n + 1
+        lista.append(calcula)
+        n += 1
+    for num in lista:
+        produto *= num
+    print(lista)
+    print("Produto: ",produto)
+produtorio()
